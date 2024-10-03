@@ -9,6 +9,7 @@ import RefrshHandler from "./RefreshHandler";
 
 function App() {
   // Initially, check if the user is authenticated by looking at localStorage
+  console.log("k");
   const [isAuthenticated, setAuthenticated] = useState(false);
 
   // On component mount, check for authentication token
